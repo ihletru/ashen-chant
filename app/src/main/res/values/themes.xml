@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Heretic" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/heretic_surface</item>
+        <item name="android:statusBarColor">@color/heretic_surface</item>
+        <item name="android:navigationBarColor">@color/heretic_surface</item>
+    </style>
+</resources>

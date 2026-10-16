@@ -1,0 +1,35 @@
+# lokalne katalogi agenta — w klonie ich nie ma
+.workbuddy-ai/
+
+# klony referencyjne cudzego kodu (GPL-2.0) + artefakty buildów — licencja zostaje
+# w źródle, repo dostaje WŁASNY fork silnika jako submodule
+referencje/
+
+# node
+node_modules/
+
+# Android
+.gradle/
+build/
+local.properties
+*.iml
+.idea/
+
+# wyniki generatorów
+out/
+
+# wyniki buildu natywnego (scripts/build-native.sh) — generowane lokalnie
+app/src/main/libs/
+app/src/main/obj/
+app/src/main/.cxx/
+
+# ustawienia lokalnego NDK (śnieżka lokalna, nie idzie do repo)
+ndk-path.txt
+
+# ⚠️⚠️ KLUCZ PODPISU WYDANIA — NIGDY DO REPO.
+# Bez tego klucza nie da się wydać aktualizacji tej samej aplikacji.
+# Konwencja jak w Verbigemie: hasła w `keystore.properties` (poza gitem),
+# sam plik .jks też poza gitem. Kopia zapasowa: patrz notes/sekrety-index.md.
+keystore.properties
+*.jks
+*.keystore

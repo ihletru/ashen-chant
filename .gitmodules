@@ -1,0 +1,4 @@
+[submodule "app/src/main/jni/engine/gzdoom"]
+	path = app/src/main/jni/engine/gzdoom
+	url = https://github.com/ihletru/heretic-engine.git
+	branch = heretic-main

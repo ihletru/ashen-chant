@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Identyfikacja wizualna produktu: ciepły węgiel + bursztyn.
+         Ikona adaptacyjna = wygenerowana grafika (drawable-*/ic_launcher_foreground.png)
+         na tym tle. Karta Sklepu: „Ashen Chant: Retro FPS". -->
+    <color name="ic_launcher_background">#0E0C0A</color>
+    <color name="heretic_surface">#0B0B0F</color>
+    <color name="heretic_amber">#E8A33D</color>
+</resources>

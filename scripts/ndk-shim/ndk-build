@@ -1,0 +1,4 @@
+#!/bin/bash
+unset PYTHONHOME PYTHONPATH
+NDK="C:/Users/milo/AppData/Local/Android/Sdk/ndk/27.0.12077973"
+exec "$NDK/prebuilt/windows-x86_64/bin/make.exe" -O -f "$NDK/build/core/build-local.mk" SHELL=cmd "$@"
